@@ -60,11 +60,13 @@ Backend:
 
 ## Project Structure
 
+```
 code-bard/
 │
-├── frontend/ React (Vite) UI
-├── backend/ Express API + transformation engine
+├── frontend/ # React (Vite) UI
+├── backend/ # Express API + transformation engine
 └── README.md
+```
 
 ---
 
@@ -72,13 +74,17 @@ code-bard/
 
 1. Install frontend dependencies
 
-   cd frontend
-   npm install
+```bash
+cd frontend
+npm install
+```
 
 2. Install backend dependencies
 
-   cd ../backend
-   npm install
+```bash
+cd ../backend
+npm install
+```
 
 ---
 
@@ -86,16 +92,23 @@ code-bard/
 
 Start backend:
 
+```bash
 cd backend
 node server.js
+```
 
 Backend runs on:
+
+```
 http://localhost:5000
+```
 
 Start frontend:
 
+```bash
 cd frontend
 npm run dev
+```
 
 Open the local URL shown in the terminal.
 
@@ -105,16 +118,19 @@ Open the local URL shown in the terminal.
 
 Input:
 
+```javascript
 function calculateSum(arr) {
-let sum = 0;
-for (let i = 0; i < arr.length; i++) {
-sum += arr[i];
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
 }
-return sum;
-}
+```
 
 Output (Fantasy Epic):
 
+```
 A quiet intention stirred.
 Lyra invoked the ritual "calculateSum".
 She set "sum" to 0.
@@ -122,6 +138,7 @@ A cycle of repetition unfolded.
 She added arr[i] to "sum".
 She accumulated values into "sum" and returned the final total.
 Thus the legend of Lyra endured.
+```
 
 ---
 
