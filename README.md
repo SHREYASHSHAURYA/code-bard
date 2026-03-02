@@ -137,6 +137,7 @@ She set "sum" to 0.
 A cycle of repetition unfolded.
 She added arr[i] to "sum".
 She accumulated values into "sum" and returned the final total.
+
 Thus the legend of Lyra endured.
 ```
 
